@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #FBFBFB;
+}
 .headerclass{
     display: flex;
     justify-content: space-between;
@@ -127,12 +130,50 @@
 }
 .card-container .card{
     padding: 50px;
-    border: 1px solid black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
 }
 .card-container .card img{
     background-color: #F95555;
     border-radius: 40px;
     padding: 20px;
 }
+.Solution-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Solution-container span{
+    display: block;
+    margin-bottom: 12px ;
+}
+.Solution-container h1{
+    margin-bottom: 16px ;
+}
+.Solution-container p{
+    margin-bottom: 40px;
+}
+.featureswrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.solution-row{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 60px;
+}
+.solution-content{
+    flex: 1;
+}
+.featuresrow{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+
+
 
 
